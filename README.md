@@ -1,0 +1,1 @@
+This project is a HTML website created as part of my internship/training. The website showcases "Eco-Well", a fictional green initiative focused on promoting eco-friendly products, sustainable services, and environmental awareness.
