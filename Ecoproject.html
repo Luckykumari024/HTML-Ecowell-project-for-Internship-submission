@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoWell - For a Greener Tomorrow</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+    }
+    header {
+      background: url(https://images.unsplash.com/photo-1506744038136-46273834b3fb) no-repeat center center/cover;
+      height: 250px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+    }
+    .flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card, .product-img {
+      flex: 1 1 300px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 15px;
+    }
+    @media screen and (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Welcome to EcoWell</h1>
+      <p>Empowering a sustainable future with green technology and conscious choices</p>
+    </div>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#blog">Blog</a>
+    <a href="#products">Products</a>
+  </nav>  <div class="container">
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <div class="flexbox">
+        <div class="card">
+          <p>At EcoWell, we believe that small steps lead to big changes. Our mission is rooted in the idea that every individual and community has the power to make a difference through mindful choices. By developing eco-friendly products and offering sustainable services, we aim to empower people to reduce their carbon footprint without compromising on quality or convenience.
+
+From sustainable farming solutions that support organic cultivation to eco-living essentials that replace harmful everyday items, EcoWell is dedicated to creating a greener, cleaner future. Our product range is designed with the environment in mind—biodegradable, non-toxic, and responsibly sourced. Whether you're a household looking to go plastic-free or a farmer seeking environmentally safe practices, we provide tools and guidance every step of the way.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="product-img" alt="About" width="200" height="300"/>
+      </div>
+    </section><section id="services" class="section"
+  <h2>Our Services</h2>
+    <div class="card">
+      <p>At EcoWell, we go beyond offering green solutions—we actively collaborate with both rural and urban communities to implement transformative practices. Our services include establishing fully functional organic farms that eliminate harmful chemicals, installing rainwater harvesting systems to conserve precious resources, and integrating solar panels to harness clean, renewable energy. We believe sustainability should be practical and accessible, which is why we also conduct green audits for schools and businesses to optimize waste and energy usage. Our mission is rooted in empowerment: we guide communities through every step of their eco-journey, turning environmental responsibility into a shared way of life.</p>
+    </div>
+    <img src="https://bambooramagro.com/wp-content/uploads/2022/07/Bamboo-Plant-1024x768.jpeg.webp" class="product-img" alt="Eco Farm Services" width="800" height="500"/>
+  </div>
+  <div class="flexbox">
+    <div class="card">
+      <p>Green audits for schools and businesses aiming to reduce their environmental impact. These audits assess current waste and energy practices, offering tailored recommendations for improvement. Our team helps institutions implement effective waste segregation systems, adopt energy-efficient appliances, and transition to renewable energy sources where possible. We believe that education and enterprise have a critical role in shaping a greener future, and our audits empower them to lead by example. By transforming workspaces and campuses into eco-conscious environments, we help embed sustainability into daily operations and long-term organizational culture. ♻️🌍.</p>
+    </div>
+    <img src="https://imgix-prod.sgs.com/-/media/sgscorp/images/knowledge-solutions/environmental-audits.cdn.en-NL.1.png?fit=crop&crop=edges&auto=format&w=1200&h=630" class="product-img" alt="Green Consulting" width="200" height="300" />
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368" alt="Gallery Image" />
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Gallery Image" />
+    <img src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92" alt="Gallery Image" />
+    <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5" alt="Gallery Image" />
+    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Gallery Image" />
+    <img src="https://images.unsplash.com/photo-1516912481808-3406841bd33c" alt="Gallery Image" />
+  </div>
+</section>
+
+<section id="blog" class="section">
+  <h2>Blog</h2>
+  <div class="card">
+    <img src="https://brownliving.in/cdn/shop/files/sustainable-ultra-soft-bamboo-toothbrush-eco-friendly-anti-bacterial-by-soil-origin-at-brownliving-761403.png?v=1741332158" class="product-img" alt="Blog 1" width="600" height="400" />
+    <h3>How One Bamboo Brush Can Save the Planet</h3>
+    <p>Switching to a bamboo toothbrush may feel like a small gesture, but when embraced by millions, it becomes a powerful force for change. Traditional plastic brushes take hundreds of years to decompose, contributing to the growing crisis of ocean and land pollution. In contrast, bamboo is biodegradable and sustainably grown, making it a smart, earth-friendly choice. By replacing just one item in your daily routine, you're joining a larger movement toward conscious living and planetary well-being. 🌍🪥💚</p>
+  </div>
+  <div class="card">
+    <img src="https://cdn.sanity.io/images/oyzyxja8/v2/9ef49c137bdfa8657e06096f85216f54381ff139-2083x1087.jpg?w=2048&q=90&auto=format" class="product-img" alt="Blog 2" width="600" height="400" />
+    <h3>Urban Gardens: Greening the Concrete Jungle</h3>
+    <p>Vertical gardens are transforming cityscapes by turning once-bare walls and rooftops into lush, living ecosystems. These innovative installations not only bring beauty to concrete-heavy environments but also serve vital ecological functions. Green walls help filter pollutants from the air, regulate indoor temperatures, and reduce urban heat islands. Terrace gardens offer urban dwellers the chance to grow fresh vegetables, herbs, and even fruits—right at home. By maximizing limited space with vertical designs, city residents can reconnect with nature and contribute to local food sustainability. It’s a green revolution that’s as practical as it is inspiring. 🌿🏙️🍅</p>
+  </div>
+</section>
+
+<section id="products" class="section">
+  <h2>Our Products</h2>
+  <p>We provide eco-conscious products aimed at improving environmental wellness and promoting sustainable living.</p>
+  <table>
+    <tr>
+      <th rowspan="2">Locations</th>
+      <th colspan="2">Categories</th>
+      <th rowspan="2">Prices</th>
+    </tr>
+    <tr>
+      <th>Lifestyle</th>
+      <th>Utility</th>
+    </tr>
+    <tr>
+      <td>Cuttack</td>
+      <td>Bamboo Toothbrushes</td>
+      <td>Solar Water Pumps</td>
+      <td>₹499 - ₹12,000</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Patna</td>
+      <td>Reusable Cloth Bags</td>
+      <td>Compost Bins</td>
+      <td>₹199 - ₹3,000</td>
+    </tr>
+    <tr>
+      <td>Eco Cleaners</td>
+      <td>Biogas Stoves</td>
+      <td>₹349 - ₹5,000</td>
+    </tr>
+    <tr>
+      <td>Kolkata</td>
+      <td colspan="2">Vertical Garden Kits</td>
+      <td>₹2,499</td>
+    </tr>
+    <tr>
+      <td>Chennai</td>
+      <td colspan="2">Smart Irrigation Systems</td>
+      <td>₹4,999</td>
+    </tr>
+  </table>
+</section>
+
+  </div>  <footer>
+    <p>&copy; 2025 EcoWell | Building a cleaner, greener tomorrow</p>
+  </footer>
+</body>
+</html>
